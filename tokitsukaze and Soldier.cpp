@@ -1,5 +1,10 @@
 https://ac.nowcoder.com/discuss/390407
 
+//优先队列+贪心
+//优先队列:自动排序--->将战力小的排在前面
+//贪心:1.原算法:将人数从min到max的战力依次算出,记录最大值即可
+//     2.贪心简化:从max人数算到min,计算时用优先队列减少人数(即弹走战力小的),减少计算量(O(nlogn)),再记录最大值即可
+
 #include <bits/stdc++.h>
 using namespace std;
 #define ll long long
